@@ -54,3 +54,6 @@ while count<N:
     count += 1
 r = (S_t - S_r)/S_t
 print(r)
+# Plotting the datapoints
+mplot.scatter(x, y)
+mplot.show()
